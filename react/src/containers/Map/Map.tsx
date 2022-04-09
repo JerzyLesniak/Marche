@@ -1,9 +1,8 @@
 import React, { ChangeEvent, useEffect, useRef, useState } from 'react';
-
-import './Map.scss';
-import StatesMap from '../../assets/map.svg';
 import { VisitsData } from '../../App';
-const data = require('../../assets/stateData.json');
+
+import StatesMap from '../../assets/map.svg';
+import './Map.scss';
 
 const SELECTED_COLOR = '#F59200';
 const UNSELECTED_COLOR = '#FCDAA9';
