@@ -1,7 +1,11 @@
+# Install all dependencies
+
+npm run install
+
 # To start node server run:
 
-nodemon node/source/server.ts
+npm run node
 
-# To start react go to react directory and run:
+# To start react run:
 
-npm run dev
+npm run react

@@ -1,5 +1,7 @@
 {
   "scripts": {
-    "install": "cd ./node && npm install && cd ../react && npm install"
+    "install": "cd ./node && npm install && cd ../react && npm install",
+    "node": "nodemon node/source/server.ts",
+    "react": "cd ./react && npm run dev"
   }
 }
