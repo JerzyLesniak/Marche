@@ -1,0 +1,22 @@
+@use './styles';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+body > div {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  @include styles.flexCenter;
+  min-height: 100%;
+  width: 100%;
+  padding-top: 90px;
+  overflow: hidden;
+}

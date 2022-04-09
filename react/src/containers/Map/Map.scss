@@ -1,0 +1,26 @@
+@use '../../styles';
+
+.map {
+  @include styles.flexCenter;
+  flex: 1;
+
+  &-controls {
+    width: 100%;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica Neue';
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: 0.27px;
+
+    select {
+      width: 135px;
+      height: 30px;
+    }
+  }
+
+  svg {
+    transform: scale(0.8);
+  }
+}
