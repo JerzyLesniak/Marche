@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "install": "cd ./node && npm install && cd ../react && npm install"
+  }
+}
